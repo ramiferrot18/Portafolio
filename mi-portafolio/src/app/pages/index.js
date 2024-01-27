@@ -93,13 +93,6 @@ export default function Index() {
                 <div class="content-card-img">
                     <Image class="image" src={Hero_2} />
                     <div class="content-card-img-overlay"></div>
-                    <div class="content-card-img-detail">
-                        <p class="title">SmarterTrading411</p>
-                        <p class="detail">Landing page of SmarterTrading411 created using WordPress</p>
-                        <button class="btn">
-                            <img src="assets/icons/link.svg" alt="link" />
-                        </button>
-                    </div>
                 </div>
                 <div class="content-card-img">
                     <Image class="image" src={bussiness_man} />
