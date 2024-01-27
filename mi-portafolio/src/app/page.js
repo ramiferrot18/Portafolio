@@ -1,21 +1,25 @@
-
 import Image from "next/image";
-import styles from "./page.module.css"
-import Head from 'next/head';
-import index from "./components/index";
-
+import styles from "./page.module.css";
+import Profile from "./components/Profile";
+import Facts from "./components/Facts";
+import Division from "./components/Division";
+import Project from "./components/Project";
+import ButtonD from "./components/ButtonD";
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Victor Alvarado - Software Engineer</title>
-        <meta name="description" content="Victor Alvarado - Software Engineer" />
-        <link rel="icon" href="/favicon.ico" />
-        <index/>
-      </Head>
-
+    <div className={styles.main}>
+      <div>
+        <Profile/>
+      </div>
+      <div>
+        <Facts/>
+      </div>
+      <div>
+        <Division/>
+      </div>
+      <div>
+        <Project/>
+      </div>
     </div>
   );
 }
-
-
