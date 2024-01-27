@@ -43,13 +43,13 @@ export default function Index() {
 
 
                 <div class="profile-info">
-                    <h1>Victor Alvarado</h1>
+                    <h1>Ramiro Fernandez</h1>
                     <p>Software Engineer</p>
                     <div class="profile-social">
-                        <a href="https://github.com" target="_blank">
+                        <a href="https://github.com/ramiferrot18" target="_blank">
                             <Image src={githubIcon} alt="github" class="profile-social-img" />
                         </a>
-                        <a href="https://twitter.com" target="_blank">
+                        <a href="https://twitter.com/ferrot18" target="_blank">
                             <Image src={twitterIcon} alt="twitter" class="profile-social-img" />
                         </a>
                         <a href="https://linkedin.com" target="_blank">
